@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin:1.2rem;
+}
+.boxContainer{
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    background-color: palevioletred;
+}
+.box3{
+    background-color:seagreen;
+}
+.box2{
+    background-color: orange;
+}
+.box4{
+    background-color:slateblue;
+}
+
+.flash{
+    background-color: white;
+}
+.score{
+    text-align: right;
+    margin:auto;
+    margin-right :70px;
+}
+
+@media (min-width:200px) and (max-width:530px){
+    .btn{
+        height: 150px;
+        width: 150px;
+        border-radius: 20%;
+        border: 6px solid black;
+        margin:0.8rem;
+    }
+}

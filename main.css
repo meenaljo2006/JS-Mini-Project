@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+
+body{
+    background-color: #a3b7ca;
+    margin: 0;
+}
+
+.title{
+    width:auto;
+    height: 50px;
+    background-color: #d1dbe4;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 30px;
+
+    font-family: "Bungee";
+    font-size: 15px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    width: 300px;
+    height: 380px;
+    background-color: #7593af;
+
+    margin: 60px 20px 20px 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    background-color: #85a5c4;
+    box-shadow: 0px 0px 10px 5px #d1dbe4 ;
+}
+
+.card img{
+    width: 270px;
+    height: 220px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.card-content{
+    padding-left:18px ;
+    padding-right: 15px;
+}
+
+.card-content h2{
+    margin-bottom: 0px;
+    text-decoration: none;
+    
+}
+
+.card-content p{
+    margin-top: 4px;
+}
+
